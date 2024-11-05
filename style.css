@@ -1,12 +1,3 @@
-h1 {
-    color: blue;
-}
-h2 {
-    color: rgb(250, 0, 0)
-}
-h3 {
-    color: rgba(0, 270, 0, 0.5)
-}
-#color {
-    background-color: yellow;
+.size{
+    font-size: 30px;
 }
