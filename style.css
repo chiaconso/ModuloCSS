@@ -1,5 +1,9 @@
-div {
-    color: blueviolet;
-    text-align: center;
+p {
+color: red;
 }
-
+.color {
+color: green;
+}
+#super-color {
+color: darkturquoise;
+}
