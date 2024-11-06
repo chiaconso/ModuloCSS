@@ -1,3 +1,6 @@
-.background{
-    background-color: chocolate;
+a {
+    color: blue;
+}
+a:hover {
+    color: red;
 }
