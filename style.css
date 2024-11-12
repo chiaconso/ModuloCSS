@@ -1,5 +1,12 @@
-.padd {
-    padding: 30px;
-    margin: 10px;
-    border: 10px solid greenyellow;
+ul li:first-child {
+    color: brown;
+    display: inline-block;
+}
+ul li:nth-child(2) {
+    color: blue;
+    display: inline-block;
+}
+ul li:last-child {
+    color: green;
+    display: inline-block;
 }
