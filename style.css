@@ -1,9 +1,3 @@
-p {
-color: red;
-}
-.color {
-color: green;
-}
-#super-color {
-color: darkturquoise;
+.padd {
+    padding: 30px;
 }
