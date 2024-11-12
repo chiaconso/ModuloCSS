@@ -1,12 +1,21 @@
-ul li:first-child {
-    color: brown;
+.first {
+    border: 5px solid red;
+    background-color: aqua;
+    height: 50px;
+    width: 250px;
+    display: inline;
+}
+.second {
+    border: 5px solid red;
+    background-color: aqua;
+    height: 50px;
+    width: 250px;
     display: inline-block;
 }
-ul li:nth-child(2) {
-    color: blue;
-    display: inline-block;
-}
-ul li:last-child {
-    color: green;
-    display: inline-block;
+.third {
+    border: 5px solid red;
+    background-color: aqua;
+    height: 50px;
+    width: 250px;
+    display: block;
 }
