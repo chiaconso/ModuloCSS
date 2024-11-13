@@ -1,16 +1,8 @@
-body {
-    height: 5000px;
-}
-.topnav {
-    top: 0px;
-    background-color: aqua;
-    position:fixed;
-    
-}
-.topnav a {
-    display: block;
-    color: blue;
+footer {
+    background-color: black;
+    color: white;
     text-align: center;
-    padding: 15px;
-    text-decoration: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
