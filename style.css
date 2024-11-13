@@ -4,7 +4,7 @@ body {
 .topnav {
     top: 0px;
     background-color: aqua;
-    position:sticky;
+    position:fixed;
     
 }
 .topnav a {
