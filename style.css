@@ -1,6 +1,6 @@
-.font {
-    font-size: 7rem;
+:root {
+    --coloreprincipale: red;
 }
-.size {
-    font-size: 7em;
+* {
+    color:var(--coloreprincipale);
 }
