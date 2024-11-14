@@ -1,8 +1,6 @@
-
-.div1 {
-    border: 5px solid red;
-    padding: 20px;
-    margin: 20px;
-    width: 100px;
-    height: 70px;
+.font {
+    font-size: 7rem;
+}
+.size {
+    font-size: 7em;
 }
