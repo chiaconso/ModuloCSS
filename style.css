@@ -3,6 +3,8 @@
     background-color: goldenrod;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 300px;
+    align-items: center;
 }
 .container > div {
     background-color: #f1f1f1;
