@@ -5,6 +5,7 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px; 
+    grid-template-rows: 1fr 2fr;
 }
 .grid-container > div {
     background-color: #f1f1f1;
@@ -12,7 +13,5 @@
     line-height: 75px;
     font-size: 30px;
 }
-.union {
-    grid-row: span 2;
-}
+
 
