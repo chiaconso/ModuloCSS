@@ -1,7 +1,7 @@
 .container {
     display: flex;
     background-color: goldenrod;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .container > div {
     background-color: #f1f1f1;
