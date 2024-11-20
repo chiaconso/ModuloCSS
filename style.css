@@ -1,20 +1,14 @@
-.container {
-    display: flex;
-    background-color: goldenrod;
-    flex-direction: row;
-    height: 400px;
+.grid-container {
+    display: inline-grid;
+    background-color: green;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
 }
-.container > div {
+.grid-container > div {
     background-color: #f1f1f1;
-    margin: 10px;
     width: 100px;
-    font-size: 30px;
+    margin: 10px;
     text-align: center;
     line-height: 75px;
-}
-.item2 {
-    align-self: center;
-}
-.item3 {
-    align-self: flex-end;
+    font-size: 30px;
 }
