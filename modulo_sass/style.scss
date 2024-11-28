@@ -1,9 +1,7 @@
-$primary-color: #3498db;
-$base-font-size: 16px;
-
-.title-1 {
-    color: $primary-color;
+.last-item {
+    background-color: #e7e7e7;
 }
-.text-latin {
-    font-size: $base-font-size;
+.contact {
+    @extend .last-item;
+    border-color: #333333;
 }

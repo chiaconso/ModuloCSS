@@ -1,9 +1,9 @@
-.title-1 {
-  color: #3498db;
+.last-item, .contact {
+  background-color: #e7e7e7;
 }
 
-.text-latin {
-  font-size: 16px;
+.contact {
+  border-color: #333333;
 }
 
 /*# sourceMappingURL=style.css.map */
