@@ -1,16 +1,7 @@
-$noHover: false;
-
-.navbar-item {
-    color: #000;
-
-@if $noHover == false {
-    &:hover { 
-        color: #f00;
-    }
-}
-@else {
-    &:hover {
-        color: inherit;
-    }
-}
-}
+@function px-to-em($px, $context: 16px) {
+    @return calc($px / $context) * 1em;
+  }
+  h1 {
+    font-size: px-to-em(32px); // 32px -> 2em
+  }
+  
