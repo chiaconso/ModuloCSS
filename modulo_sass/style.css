@@ -1,18 +1,37 @@
-/* Error: Undefined variable.
- *   ,
- * 2 |     background-color: $primary-color;
- *   |                       ^^^^^^^^^^^^^^
- *   '
- *   _buttons.scss 2:23  @use
- *   style.scss 1:1      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      background-color: $primary-color;\d\a   \2502                        ^^^^^^^^^^^^^^\a   \2575 \a   _buttons.scss 2:23  @use\a   style.scss 1:1      root stylesheet";
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #333333;
 }
+.navbar a {
+  color: #333333;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #ffcc00;
+}
+.navbar.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+.navbar.dark a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar.dark a:hover {
+  color: #ffcc00;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+.navbar .nav-links a {
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,42 @@
-@use '_buttons';
+@mixin theme($background-color, $text-color, $hover-color) {
+    background-color: $background-color;
+    color: $text-color;
 
-.button-primary {
-    background-color: _buttons.$primary-color;
+a {
+    color: $text-color;
+    text-decoration: none;
+    
+    &:hover {
+        color: $hover-color;
+    }
+}
+}
+
+//variabili per il tema chiaro e scuro
+$light-background: #f0f0f0;
+$light-text: #333333;
+
+$dark-background: #000000;
+$dark-text: #ffffff;
+$hover-color: #ffcc00; 
+
+//Navbar
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include theme ($light-background, $light-text, $hover-color);
+    &.dark {
+        @include theme ($dark-background, $dark-text, $hover-color);
+    }
+    .nav-links {
+        display: flex;
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 18px;
+        padding: 5px 10px;
+        transition: color 0.3s ease;
+    }
 }
