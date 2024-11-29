@@ -1,7 +1,20 @@
-.last-item {
-    background-color: #e7e7e7;
+.navbar {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    .navbar-menu {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        list-style-type: none;
+        gap: 5px;
+        a:hover {color: #ff0000;}
+    }
 }
-.contact {
-    @extend .last-item;
-    border-color: #333333;
+.container-1 {
+    width: 33.33%;
+    background-color: lightblue;
+}
+.container-2 {
+    width: 66.66%;
+    background-color: lightcoral;
 }
