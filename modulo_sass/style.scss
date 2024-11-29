@@ -1,9 +1,16 @@
-@function px-to-em ($px, $base: 16) {
-    @return calc (#{$px} / #{$base});
+$noHover: false;
+
+.navbar-item {
+    color: #000;
+
+@if $noHover == false {
+    &:hover { 
+        color: #f00;
+    }
 }
-body {
-    font-size: px-to-em(18px);
+@else {
+    &:hover {
+        color: inherit;
+    }
 }
-h1 {
-    font-size: px-to-em(32px);
 }

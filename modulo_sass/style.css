@@ -1,9 +1,8 @@
-body {
-  font-size: calc 18px/16;
+.navbar-item {
+  color: #000;
 }
-
-h1 {
-  font-size: calc 32px/16;
+.navbar-item:hover {
+  color: #f00;
 }
 
 /*# sourceMappingURL=style.css.map */
