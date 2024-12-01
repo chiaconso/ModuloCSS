@@ -1,15 +1,15 @@
-$noHover: false;
+$colors: red, green, blue, orange;
 
-.navbar-item {
-    color: #000;
-@if $noHover == false {
-    &:hover { 
-        color: #f00;
-    }
-}
-@else {
+@each $color in $colors {
+  .nav-item-#{$color} {
+    background-color: $color;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
     &:hover {
-        color: inherit;
+      background-color: darken($color, 10%);
     }
-}
+  }
 }

@@ -1,7 +1,51 @@
-.navbar-item {
-  color: #000;
+.nav-item-red {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-.navbar-item:hover {
-  color: #f00;
+.nav-item-red:hover {
+  background-color: #cc0000;
+}
+
+.nav-item-green {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-item-green:hover {
+  background-color: #004d00;
+}
+
+.nav-item-blue {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-item-blue:hover {
+  background-color: #0000cc;
+}
+
+.nav-item-orange {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-item-orange:hover {
+  background-color: #cc8400;
 }
