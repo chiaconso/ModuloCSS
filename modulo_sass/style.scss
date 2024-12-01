@@ -1,19 +1,15 @@
-$colors: (light, dark);
+$noHover: false;
 
-@for $i from 1 through 2 {
-  .container-#{$i} {
-    padding: 20px;
-    margin: 10px;
-    color: white;
-
-    @if $i == 1 {
-      background-color: lightgray;
-    } @else {
-      background-color: #333;
+.navbar-item {
+    color: #000;
+@if $noHover == false {
+    &:hover { 
+        color: #f00;
     }
-    p {
-      font-size: 16px;
-    }
-  }
 }
-
+@else {
+    &:hover {
+        color: inherit;
+    }
+}
+}
